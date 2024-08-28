@@ -1,8 +1,6 @@
+import ContentLayout from '../layouts/ContentLayout'
+
 const About = () => {
-    return (
-        <div>
-            <h1>About</h1>
-        </div>
-    )
+    return <ContentLayout query='about' template='text' />
 }
 export default About

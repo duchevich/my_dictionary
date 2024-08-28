@@ -2,6 +2,17 @@ export const API_URL = 'https://dtm.in.ua/graphql'
 
 export const queries = new Map([
     [
+        'about',
+        `
+			{
+				page(id: "cG9zdDo4OA==") {
+					title
+					content
+				}
+			}
+		`,
+    ],
+    [
         'terms',
         `
 			{
