@@ -1,8 +1,6 @@
+import ContentLayout from '../layouts/ContentLayout'
+
 const Copyright = () => {
-    return (
-        <div>
-            <h1>Copyright</h1>
-        </div>
-    )
+    return <ContentLayout query='copyright' template='text' />
 }
 export default Copyright

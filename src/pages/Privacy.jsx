@@ -1,8 +1,6 @@
+import ContentLayout from '../layouts/ContentLayout'
+
 const Privacy = () => {
-    return (
-        <div>
-            <h1>Privacy</h1>
-        </div>
-    )
+    return <ContentLayout query='privacy' template='text' />
 }
 export default Privacy

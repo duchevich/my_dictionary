@@ -1,8 +1,6 @@
+import ContentLayout from '../layouts/ContentLayout'
+
 const Terms = () => {
-    return (
-        <div>
-            <h1>Terms</h1>
-        </div>
-    )
+    return <ContentLayout query='terms' template='text' />
 }
 export default Terms

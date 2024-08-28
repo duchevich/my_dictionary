@@ -3,10 +3,17 @@ import Logo from './Logo'
 
 const Header = () => {
     return (
-        <header>
-            <div className='cont'>
-                <Logo />
-                <HeaderMenu />
+        <header className='header'>
+            <div className='container-fluid'>
+                <div className='flexbox'>
+                    <div className='col col-30'>
+                        <Logo />
+                    </div>
+                    <div className='col col-full'>
+                        <HeaderMenu />
+                    </div>
+                    <div className='col col-30'></div>
+                </div>
             </div>
         </header>
     )
