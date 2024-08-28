@@ -1,0 +1,17 @@
+.btn {
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: 500;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    &-orange {
+        background-color: $orange;
+        border-color: $orange;
+        color: $black;
+        &:hover {
+            background-color: $white;
+            color: $black;
+        }
+    }
+}

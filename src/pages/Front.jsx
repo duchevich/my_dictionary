@@ -1,7 +1,9 @@
 const Front = () => {
     return (
-        <div>
-            <h1>Front Page</h1>
+        <div className='text'>
+            <div className='container'>
+                <h1>Front Page</h1>
+            </div>
         </div>
     )
 }

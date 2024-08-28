@@ -7,6 +7,7 @@ import Terms from './pages/Terms'
 import Privacy from './pages/Privacy'
 import Copyright from './pages/Copyright'
 import NotFound from './pages/NotFound'
+import Login from './components/Login'
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                         <Route path='/' element={<Front />} />
                         <Route path='about' element={<About />} />
                         <Route path='contacts' element={<Contacts />} />
+                        <Route path='login' element={<Login />} />
                         <Route path='terms' element={<Terms />} />
                         <Route path='privacy' element={<Privacy />} />
                         <Route path='copyright' element={<Copyright />} />

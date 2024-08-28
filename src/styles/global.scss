@@ -10,4 +10,9 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    transition: all 0.3s linear;
+}
+button {
+    transition: all 0.3s linear;
+    cursor: pointer;
 }
