@@ -4,14 +4,22 @@ import SocialIcons from './SocialIcons'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='footer'>
             <div className='cont'>
-                <Logo />
-                <FooterMenu />
-                <SocialIcons />
+                <div className='col col-30'>
+                    <Logo />
+                </div>
+                <div className='col col-full'>
+                    <FooterMenu />
+                </div>
+                <div className='col col-30'>
+                    <SocialIcons />
+                </div>
             </div>
             <div className='cont'>
-                <div>&copy;2024</div>
+                <div className='col col-full footer-copy'>
+                    duchevich&copy;{new Date().getFullYear()}
+                </div>
             </div>
         </footer>
     )

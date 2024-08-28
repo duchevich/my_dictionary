@@ -1,0 +1,26 @@
+.social {
+    a {
+        margin: 5px;
+    }
+    svg {
+        width: 30px;
+        height: auto;
+        fill: $black;
+        transition: fill 0.3s linear;
+    }
+    .soc-fb:hover {
+        fill: $fb;
+    }
+    .soc-insta:hover {
+        fill: $insta;
+    }
+    .soc-lin:hover {
+        fill: $lin;
+    }
+    .soc-git:hover {
+        fill: $git;
+    }
+    .soc-twitter:hover {
+        fill: $twitter;
+    }
+}

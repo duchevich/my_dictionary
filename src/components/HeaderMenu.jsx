@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 const HeaderMenu = () => {
     return (
-        <nav>
+        <nav className='header-menu'>
             <NavLink to='/' end>
                 Home
             </NavLink>

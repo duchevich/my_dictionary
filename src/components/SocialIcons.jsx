@@ -13,25 +13,25 @@ const SocialIcons = () => {
                 href='https://www.facebook.com/'
                 target='_blank'
                 rel='noreferrer'>
-                <FaFacebookSquare />
+                <FaFacebookSquare className='soc-fb' />
             </a>
             <a
                 href='https://www.instagram.com/'
                 target='_blank'
                 rel='noreferrer'>
-                <FaInstagramSquare />
+                <FaInstagramSquare className='soc-insta' />
             </a>
             <a
                 href='https://www.linkedin.com/'
                 target='_blank'
                 rel='noreferrer'>
-                <FaLinkedin />
+                <FaLinkedin className='soc-lin' />
             </a>
             <a href='https://github.com/' target='_blank' rel='noreferrer'>
-                <FaGithubSquare />
+                <FaGithubSquare className='soc-git' />
             </a>
             <a href='https://x.com/' target='_blank' rel='noreferrer'>
-                <FaSquareXTwitter />
+                <FaSquareXTwitter className='soc-twitter' />
             </a>
         </div>
     )

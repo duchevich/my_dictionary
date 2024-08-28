@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
+
 const Logo = () => {
     return (
-        <div className='logo'>
-            <Link to='/'>Logo</Link>
-        </div>
+        <Link to='/' className='logo'>
+            MyDictionary
+        </Link>
     )
 }
 export default Logo
